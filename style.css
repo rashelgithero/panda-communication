@@ -1,0 +1,131 @@
+.container{
+    padding-bottom: 50px;
+}
+
+.search-box img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.orange-bg{
+    background-color: #FEEAE9;
+    border-radius: 20px;
+    
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+}
+.btn-danger{
+    background-color: #FF589B;
+}
+.fs-6{
+    padding-bottom: 25px;
+}
+.cat1{
+    background-color: #FFD019;
+}
+.cat2{
+    background-color:#FF589B ;
+
+}
+.cat3{
+    background-color:#3F07F8 ;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.catagories img{
+    
+    
+}
+.catagories h1{
+    color: white;
+}
+.card{
+    box-shadow: 5px 5px 10px grey;
+    border: none;
+    
+}
+.card-body,{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    max-width: 450px;
+    position: relative;
+    max-height: 54px;
+    margin-right: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    background-color: #F5F5F5;
+}
+.search-box input{
+    width: 350px;
+    border: none;
+    outline: none;
+    background-color: #F5F5F5 ;
+}
+.search-box button{
+    border: none;
+    outline: none;
+   
+}
+.search-box input:focus{
+    border-right: 1px black solid;
+    background-color: #e7e7e7 ;
+    border-radius: 20px 0px 0px 20px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.navbar-nav li{
+    padding: 0 20px;
+}
+
+
+@media(max-width:1200px){
+    .search-box input{
+        width: 300px;
+    }
+    .search-box{
+        width: 400px;
+    }
+    .navbar-nav li{
+        padding: 0 0px;
+    }
+
+}
+ @media(max-width: 991.9px){
+    .container-fluid{
+        position: relative;
+    }
+    .navbar-collapse{
+        background-color: lightgrey;
+        padding: 10px;
+        
+    }
+    .navbar-toggler:focus{
+        outline: none;
+        box-shadow: 10px 10px 40px black;
+    }
+    .catagories img{
+        max-width: 100%;
+        height: 90px;
+    }
+   
+}
+@media(max-width: 767.9px){
+    .catagories img{
+        max-width: 100%;
+        height: auto;
+    }
+
